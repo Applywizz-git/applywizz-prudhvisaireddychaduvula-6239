@@ -167,7 +167,7 @@ export const Hero = () => {
               className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-2 border-luxury-gold/30 shadow-2xl z-10 cursor-pointer"
             >
               <img
-                src="public\image.png"
+                src="public/image.png"
                 alt="Prudhvisaireddy Chaduvula"
                 className="w-full h-full object-cover"
               />
