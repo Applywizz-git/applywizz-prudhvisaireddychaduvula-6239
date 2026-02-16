@@ -167,24 +167,12 @@ export const Hero = () => {
               className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-2 border-luxury-gold/30 shadow-2xl z-10 cursor-pointer"
             >
               <img
-                src="public/image.png"
+                src="/image.png"
                 alt="Prudhvisaireddy Chaduvula"
                 className="w-full h-full object-cover"
               />
             </motion.div>
 
-            <motion.div
-              className="absolute inset-0 w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-luxury-gold/10 blur-3xl -z-10"
-              animate={{
-                scale: [1, 1.2, 1],
-                opacity: [0.3, 0.6, 0.3]
-              }}
-              transition={{
-                duration: 4,
-                repeat: Infinity,
-                repeatType: 'reverse'
-              }}
-            />
           </div>
         </motion.div>
       </div>
