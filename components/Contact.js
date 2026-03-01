@@ -9,20 +9,20 @@ const Contact = () => {
           <div className="col-lg-4">
             <div className="contact-content-part pt-5 rpt-0 rmb-55 wow fadeInUp delay-0-2s">
               <div className="section-title mb-40">
-  <span className="sub-title mb-15">Get In Touch</span>
-  <h3>
-    Let’s Automate Your <span>Cloud Operations</span>
-  </h3>
-  <p>
-    Let’s collaborate to build stable, scalable, and secure DevOps solutions tailored to your business.
-  </p>
-</div>
-<ul className="list-style-two">
-  <li>4+ Years of Experience in Cloud & DevOps</li>
-  <li>AWS | Azure | GCP | Kubernetes | Terraform</li>
-  <li>End-to-End CI/CD | Observability | Security</li>
-  <li>Infrastructure Automation & Platform Engineering</li>
-</ul>
+                <span className="sub-title mb-15">Get In Touch</span>
+                <h3>
+                  Let’s Build Your <span>Data Architecture</span>
+                </h3>
+                <p>
+                  Let’s collaborate to build reliable, scalable, and optimized data pipelines tailored to your organizational needs.
+                </p>
+              </div>
+              <ul className="list-style-two">
+                <li>3+ Years of Experience in Data Engineering</li>
+                <li>Azure | Databricks | Synapse Analytics</li>
+                <li>Delta Lake | ETL/ELT | Data Quality</li>
+                <li>Python | SQL | PySpark</li>
+              </ul>
 
             </div>
           </div>

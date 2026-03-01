@@ -11,122 +11,77 @@ const Projects = () => {
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Latest Works</span>
-              {/* <h2>
-                Explore My Popular <span>Projects</span>
-              </h2> */}
-              <h2>Real-World <span>Projects</span> I've Designed and Delivered</h2>
-
+              <h2>Real-World <span>Data Projects</span> I've Built and Delivered</h2>
             </div>
           </div>
         </div>
-      <div className="row align-items-center pb-25">
-  <div className="col-lg-6">
-    <div className="project-image wow fadeInLeft delay-0-2s">
-      <img src="assets/images/projects/project_3.png" alt="Project" />
-    </div>
-  </div>
-  <div className="col-xl-5 col-lg-6">
-    <div className="project-content wow fadeInRight delay-0-2s">
-      <span className="sub-title">Healthcare DataOps & Security Pipeline</span>
-      <h2>
-        <Link legacyBehavior href="project-details">
-          HIPAA-Compliant CI/CD on AWS EKS
-        </Link>
-      </h2>
-      <p>
-        Architected a secure GitHub Actions pipeline for EDI validation, container deployment, Vault-based secrets, and Prometheus alerts. Enabled traceable, zero-touch deployments in healthcare environments.
-      </p>
-      {/* <Link legacyBehavior href="/project-details">
-        <a className="details-btn">
-          <i className="far fa-arrow-right" />
-        </a>
-      </Link> */}
-    </div>
-  </div>
-</div>
-<div className="row align-items-center pb-25">
-  <div className="col-lg-6 order-lg-2">
-    <div className="project-image wow fadeInLeft delay-0-2s">
-      <img src="assets/images/projects/project_2.png" alt="Project" />
-    </div>
-  </div>
-  <div className="col-xl-5 col-lg-6 ms-auto">
-    <div className="project-content wow fadeInRight delay-0-2s">
-      <span className="sub-title">XR Streaming Infrastructure</span>
-      <h2>
-        <Link legacyBehavior href="project-details">
-          Multi-Cloud GKE + AKS with Terraform
-        </Link>
-      </h2>
-      <p>
-        Deployed scalable XR infrastructure across Azure and GCP using Terraform, GitLab CI/CD, Helm charts, and Trivy scanning. Enabled dynamic scaling and zero-downtime content delivery.
-      </p>
-      {/* <Link legacyBehavior href="/project-details">
-        <a className="details-btn">
-          <i className="far fa-arrow-right" />
-        </a>
-      </Link> */}
-    </div>
-  </div>
-</div>
+        <div className="row align-items-center pb-25">
+          <div className="col-lg-6">
+            <div className="project-image wow fadeInLeft delay-0-2s">
+              <img src="assets/images/projects/project_ds1.png" alt="Data Operations and Reporting" />
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-6">
+            <div className="project-content wow fadeInRight delay-0-2s">
+              <span className="sub-title">Data Operations and Reporting Support</span>
+              <h2>
+                <Link legacyBehavior href="#">
+                  SQL Server Consolidation
+                </Link>
+              </h2>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: '#b0b0b0' }}>
+                <li style={{ marginBottom: '10px' }}>Consolidated operational data from multiple SQL Server sources using structured SQL queries and joins, improving dataset consistency by 35% and reducing reporting discrepancies across teams.</li>
+                <li style={{ marginBottom: '10px' }}>Transformed raw transactional records into structured reporting tables through SQL-based filtering and aggregation logic, cutting manual reconciliation effort for business teams by 30%.</li>
+                <li style={{ marginBottom: '10px' }}>Validated dataset completeness through record-count checks and targeted query analysis, increasing accuracy of recurring reports and audit datasets by 25%.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="row align-items-center pb-25">
+          <div className="col-lg-6 order-lg-2">
+            <div className="project-image wow fadeInLeft delay-0-2s">
+              <img src="assets/images/projects/project_ds2.png" alt="Data Quality Enhancement" />
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-6 ms-auto">
+            <div className="project-content wow fadeInRight delay-0-2s">
+              <span className="sub-title">Data Processing and Quality Enhancement</span>
+              <h2>
+                <Link legacyBehavior href="#">
+                  Automated Data Validation
+                </Link>
+              </h2>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: '#b0b0b0' }}>
+                <li style={{ marginBottom: '10px' }}>Processed export-related datasets by applying SQL transformations to standardize records across upstream systems, improving consistency of export tracking data by 40%.</li>
+                <li style={{ marginBottom: '10px' }}>Implemented data validation logic using SQL queries to identify missing values and format issues, reducing data-related errors in export analytics outputs by 28%.</li>
+                <li style={{ marginBottom: '10px' }}>Supported analytics consumption by preparing cleaned and structured tables, decreasing additional data preparation time for analysis teams by 32%.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-      <div className="row align-items-center pb-25">
-  <div className="col-lg-6">
-    <div className="project-image wow fadeInLeft delay-0-2s">
-      <img src="assets/images/projects/project_1.png" alt="Project" />
-    </div>
-  </div>
-  <div className="col-xl-5 col-lg-6">
-    <div className="project-content wow fadeInRight delay-0-2s">
-      <span className="sub-title">EDI 834/837 File Validator</span>
-      <h2>
-        <Link legacyBehavior href="project-details">
-          Python + Jenkins Integration
-        </Link>
-      </h2>
-      <p>
-        Built a Python-based EDI validation engine integrated with Jenkins CI/CD. Helped detect data anomalies early, reducing insurance claim rejections by over 30%.
-      </p>
-      {/* <Link legacyBehavior href="/project-details">
-        <a className="details-btn">
-          <i className="far fa-arrow-right" />
-        </a>
-      </Link> */}
-    </div>
-  </div>
-</div>
-<div className="row align-items-center pb-25">
-  <div className="col-lg-6 order-lg-2">
-    <div className="project-image wow fadeInLeft delay-0-2s">
-      <img src="assets/images/projects/project_4.png" alt="Project" />
-    </div>
-  </div>
-  <div className="col-xl-5 col-lg-6 ms-auto">
-    <div className="project-content wow fadeInRight delay-0-2s">
-      <span className="sub-title">MySQL HA for Production Workloads</span>
-      <h2>
-        <Link legacyBehavior href="project-details">
-          Multi-AZ Replication + Failover
-        </Link>
-      </h2>
-      <p>
-        Designed and implemented a fault-tolerant MySQL architecture with replication, backup automation, and zone-level failover. Ensured zero data loss and high availability during load tests.
-      </p>
-      {/* <Link legacyBehavior href="/project-details">
-        <a className="details-btn">
-          <i className="far fa-arrow-right" />
-        </a>
-      </Link> */}
-    </div>
-  </div>
-</div>
-        {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/projects">
-            <a className="theme-btn">
-              View More Projects <i className="far fa-angle-right" />
-            </a>
-          </Link>
-        </div> */}
+        <div className="row align-items-center pb-25">
+          <div className="col-lg-6">
+            <div className="project-image wow fadeInLeft delay-0-2s">
+              <img src="assets/images/projects/project_ds3.png" alt="Data Reliability Architecture" />
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-6">
+            <div className="project-content wow fadeInRight delay-0-2s">
+              <span className="sub-title">Data Reliability and Transformation Project</span>
+              <h2>
+                <Link legacyBehavior href="#">
+                  Structured Data Pipelines
+                </Link>
+              </h2>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: '#b0b0b0' }}>
+                <li style={{ marginBottom: '10px' }}>Extracted structured operational data from backend databases using optimized SQL queries, improving data availability for internal analysis and reporting workflows by 30%.</li>
+                <li style={{ marginBottom: '10px' }}>Refined datasets through SQL-based filtering, aggregation, and deduplication logic, enhancing usability and clarity of shared data assets by 27%.</li>
+                <li style={{ marginBottom: '10px' }}>Assisted in maintaining data reliability by reviewing query outputs and collaborating with stakeholders to resolve discrepancies, lowering recurring data issues by 22%.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="bg-lines">
         <span />

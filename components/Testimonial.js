@@ -28,9 +28,9 @@ export default class Testimonial extends Component {
                       Hear What <span>My Team & Mentors</span> Say
                     </h2>
                     <p>
-  I’ve worked closely with cloud engineers, SREs, product teams, and compliance leads across DevOps-heavy environments. 
-  Here's what they say about my contributions to infrastructure automation, security, and delivery pipelines.
-</p>
+                      I’ve collaborated with cross-functional teams, analysts, and business stakeholders to translate complex data requirements into scalable SQL transformations.
+                      Here's what they say about my contributions to ETL pipelines, data quality, and reliability.
+                    </p>
 
                   </div>
 
@@ -52,62 +52,62 @@ export default class Testimonial extends Component {
               </div>
               <div className="col-lg-8">
                 <Slider
-  ref={(c) => (this.slider = c)}
-  {...noxfolioSlider.testimonials}
-  className="testimonials-wrap"
->
-  <div className="testimonial-item wow fadeInUp delay-0-3s">
-    <div className="author">
-      <img src="assets/images/testimonials/image2_men.png" alt="Author" class="testimonial-avatar"/>
-    </div>
-    <div className="text">
-      “Sirisha’s infrastructure automation skills and Terraform modules enabled us to reduce environment setup time drastically across AWS and GCP.”
-    </div>
-    <div className="testi-des">
-      <h5>Michael R.</h5>
-      <span>Senior DevOps Architect, ASTRANA Health</span>
-    </div>
-  </div>
+                  ref={(c) => (this.slider = c)}
+                  {...noxfolioSlider.testimonials}
+                  className="testimonials-wrap"
+                >
+                  <div className="testimonial-item wow fadeInUp delay-0-3s">
+                    <div className="author">
+                      <img src="assets/images/testimonials/image2_men.png" alt="Author" className="testimonial-avatar" />
+                    </div>
+                    <div className="text">
+                      “Prudhvisaireddy’s ETL pipeline design using Azure Data Factory and Databricks drastically reduced our manual data preparation efforts by 40%.”
+                    </div>
+                    <div className="testi-des">
+                      <h5>Michael R.</h5>
+                      <span>Senior Data Architect</span>
+                    </div>
+                  </div>
 
-  <div className="testimonial-item wow fadeInUp delay-0-2s">
-    <div className="author">
-      <img src="assets/images/testimonials/image1_women.png" alt="Author" class="testimonial-avatar"/>
-    </div>
-    <div className="text">
-      “Her ability to build secure and compliant CI/CD pipelines gave our healthcare platform audit-ready reliability with zero manual deployment intervention.”
-    </div>
-    <div className="testi-des">
-      <h5>Anita S.</h5>
-      <span>SRE Lead, The COMMONS XR</span>
-    </div>
-  </div>
+                  <div className="testimonial-item wow fadeInUp delay-0-2s">
+                    <div className="author">
+                      <img src="assets/images/testimonials/image1_women.png" alt="Author" className="testimonial-avatar" />
+                    </div>
+                    <div className="text">
+                      “His ability to implement incremental data loads with Delta Lake cut our daily pipeline runtimes effectively, while maintaining absolute data accuracy.”
+                    </div>
+                    <div className="testi-des">
+                      <h5>Anita S.</h5>
+                      <span>Lead Analytics Engineer</span>
+                    </div>
+                  </div>
 
-  <div className="testimonial-item wow fadeInUp delay-0-4s">
-    <div className="author">
-      <img src="assets/images/testimonials/image1_men.png" alt="Author" class="testimonial-avatar"/>
-    </div>
-    <div className="text">
-      “Sirisha took the lead on Kubernetes performance monitoring. Her Prometheus + Grafana dashboards significantly cut our MTTR and boosted SLO visibility.”
-    </div>
-    <div className="testi-des">
-      <h5>Raj K.</h5>
-      <span>Platform Engineer, DXC Technology</span>
-    </div>
-  </div>
+                  <div className="testimonial-item wow fadeInUp delay-0-4s">
+                    <div className="author">
+                      <img src="assets/images/testimonials/image1_men.png" alt="Author" className="testimonial-avatar" />
+                    </div>
+                    <div className="text">
+                      “Prudhvisaireddy took the lead on data quality validations. His schema checks using Databricks significantly lowered downstream defects.”
+                    </div>
+                    <div className="testi-des">
+                      <h5>Raj K.</h5>
+                      <span>Data Engineering Manager</span>
+                    </div>
+                  </div>
 
-  <div className="testimonial-item wow fadeInUp delay-0-2s">
-    <div className="author">
-      <img src="assets/images/testimonials/image2_women.png" alt="Author" class="testimonial-avatar"/>
-    </div>
-    <div className="text">
-      “Working with Sirisha on secure EDI file processing was a game changer — she automated validations and tightened our DevSecOps practices.”
-    </div>
-    <div className="testi-des">
-      <h5>Dr. Lisa M.</h5>
-      <span>Healthcare Product Owner</span>
-    </div>
-  </div>
-</Slider>
+                  <div className="testimonial-item wow fadeInUp delay-0-2s">
+                    <div className="author">
+                      <img src="assets/images/testimonials/image2_women.png" alt="Author" className="testimonial-avatar" />
+                    </div>
+                    <div className="text">
+                      “Working with him on SQL transformations for database consolidation resulted in much higher reliability and consistency for our recurring reports.”
+                    </div>
+                    <div className="testi-des">
+                      <h5>Dr. Lisa M.</h5>
+                      <span>Business Intelligence Lead</span>
+                    </div>
+                  </div>
+                </Slider>
 
               </div>
             </div>

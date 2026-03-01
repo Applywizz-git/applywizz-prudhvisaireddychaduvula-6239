@@ -54,8 +54,8 @@ import Link from "next/link";
 const items = [
   {
     id: 1,
-    name: "AWS",
-    image: "assets/images/skills/aws.png",
+    name: "Python",
+    image: "assets/images/skills/skill7.png",
     value: "92",
   },
   {
@@ -66,39 +66,39 @@ const items = [
   },
   {
     id: 3,
-    name: "Docker",
-    image: "assets/images/skills/docker.jpeg",
-    value: "80",
+    name: "SQL",
+    image: "assets/images/skills/skill3.png",
+    value: "90",
   },
   {
     id: 4,
-    name: "Jenkins",
-    image: "assets/images/skills/jenkins-new.jpeg",
-    value: "76",
+    name: "PySpark",
+    image: "assets/images/skills/skill1.png",
+    value: "85",
   },
   {
     id: 5,
-    name: "Kubernetes",
-    image: "assets/images/skills/kubernetes-new.png",
+    name: "Delta Lake",
+    image: "assets/images/skills/skill5.png",
     value: "85",
   },
   {
     id: 6,
-    name: "Prometheus",
-    image: "assets/images/skills/prometheus.png",
+    name: "Azure Data Factory",
+    image: "assets/images/skills/skill2.png",
     value: "90",
   },
   {
     id: 7,
-    name: "Terraform",
-    image: "assets/images/skills/terraform.png",
+    name: "Databricks",
+    image: "assets/images/skills/skill6.png",
     value: "82",
   },
   {
     id: 8,
-    name: "Trivy",
-    image: "assets/images/skills/trivy.png",
-    value: "89",
+    name: "Linux Shell",
+    image: "assets/images/skills/skill4.png",
+    value: "80",
   },
 ];
 
@@ -114,12 +114,12 @@ const Skill = () => {
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">My Skills</span>
                   <h2>
-  DevOps <span>Engineering Skill Set</span>
-</h2>
-<p>
-  My expertise lies in designing secure, scalable DevOps pipelines and cloud-native architectures across AWS, Azure, and GCP. 
-  I build robust CI/CD systems, manage Kubernetes clusters, automate infrastructure with Terraform, and enforce security using tools like Vault, Trivy, and Prometheus.
-</p>
+                    Data <span>Engineering Skill Set</span>
+                  </h2>
+                  <p>
+                    My expertise lies in designing robust batch data pipelines and analytics-ready datasets across cloud environments.
+                    I specialize in Azure Data Factory, Databricks, Synapse Analytics, PySpark, and implementing Delta Lake architectures for high reliability.
+                  </p>
 
                 </div>
                 {/* <Link legacyBehavior href="/about">
@@ -143,19 +143,29 @@ const Skill = () => {
                   ))} */}
 
                   {items.map((item) => (
-  <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6" key={item.id}>
-    <div className="skill-item wow fadeInUp delay-0-2s">
-      <div
-        className="skill-icon-wrapper"
-        
-      >
-        <img src={item.image} alt={item.name} />
-      </div>
-      <h5>{item.name}</h5>
-      <span className="percent">{item.value}%</span>
-    </div>
-  </div>
-))}
+                    <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6" key={item.id}>
+                      <div className="skill-item wow fadeInUp delay-0-2s" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                        <div
+                          className="skill-icon-wrapper"
+                          style={{
+                            height: "70px",
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            marginBottom: "20px"
+                          }}
+                        >
+                          <img
+                            src={item.image}
+                            alt={item.name}
+                            style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }}
+                          />
+                        </div>
+                        <h5 style={{ marginTop: 'auto' }}>{item.name}</h5>
+                        <span className="percent">{item.value}%</span>
+                      </div>
+                    </div>
+                  ))}
 
                 </div>
               </div>

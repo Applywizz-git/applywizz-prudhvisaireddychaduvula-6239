@@ -2,8 +2,8 @@ import Link from "next/link";
 import Counter from "./Counter";
 
 const counterData = [
-  { id: 1, text: "Years Of Experience", value: "4", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "6", valueType: "plus" },
+  { id: 1, text: "Years Of Experience", value: "3", valueType: "plus" },
+  { id: 2, text: "Projects Completed", value: "3", valueType: "plus" },
   { id: 3, text: "Success Rate", value: "95", valueType: "percent" },
 ];
 
@@ -16,13 +16,11 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, I’m </span>
               <h1>
-                <b>SIRISHA M</b><br></br> 
-                <span>DevOps Engineer</span>
+                <b>PRUDHVI SAI REDDY</b><br></br>
+                <span>Data Engineer</span>
               </h1>
               <p>
-                {/* We denounce with righteous indignation dislike demoralized by
-                the charms of pleasure */}
-Bringing systems to life through seamless integration, automation, and a passion for continuous delivery and learning.              </p>
+                Data Engineer with 3+ years of experience building batch data pipelines, SQL transformation layers, and analytics-ready datasets in cloud environments.              </p>
               <div className="hero-btns">
                 {/* <Link legacyBehavior href="/contact">
                   <a className="theme-btn">
@@ -30,12 +28,12 @@ Bringing systems to life through seamless integration, automation, and a passion
                   </a>
                 </Link> */}
                 <Link legacyBehavior href="/contact">
-      <a href="/assets/pdfs/sirisha_m_resume.pdf" download="Sirisha_Resume.pdf" target="_blank" rel="noopener noreferrer" className="theme-btn">
+                  <a href="/assets/pdfs/prudhvisaireddy_resume.pdf" download="Prudhvisaireddy_Resume.pdf" target="_blank" rel="noopener noreferrer" className="theme-btn">
                     Download CV <i className="far fa-angle-right " />
                   </a>
                 </Link>
 
-                
+
               </div>
             </div>
           </div>
@@ -52,7 +50,7 @@ Bringing systems to life through seamless integration, automation, and a passion
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/sirisha profile image bgremove.png" alt="Author" />
+              <img src="assets/images/hero/prudhvi_final_suit.png" alt="Author" style={{ borderRadius: '20px' }} />
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"

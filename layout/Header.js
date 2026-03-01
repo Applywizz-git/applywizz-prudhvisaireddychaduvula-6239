@@ -48,20 +48,20 @@ const Header1 = ({ onePageMenu }) => {
                 </Link>
               </div> */}
               <div className="footer-logo">
-  <Link legacyBehavior href="/">
-    <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
-      SIRISHA
-    </a>
-  </Link>
-</div>
+                <Link legacyBehavior href="/">
+                  <a
+                    style={{
+                      fontSize: "32px",
+                      fontWeight: "600",
+                      color: "#d5ff00", // neon yellow
+                      textDecoration: "none",
+                      fontFamily: "'Poppins', sans-serif", // or match site font
+                    }}
+                  >
+                    PRUDHVI
+                  </a>
+                </Link>
+              </div>
 
             </div>
             <div className="nav-outer clearfix mx-auto">
@@ -71,20 +71,20 @@ const Header1 = ({ onePageMenu }) => {
                   <div className="mobile-logo my-15">
                     <Link legacyBehavior href="/">
                       <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
+                        style={{
+                          fontSize: "32px",
+                          fontWeight: "600",
+                          color: "#d5ff00", // neon yellow
+                          textDecoration: "none",
+                          fontFamily: "'Poppins', sans-serif", // or match site font
+                        }}
+                      >
                         {/* <img
                           src="assets/images/logos/logo.png"
                           alt="Logo"
                           title="Logo"
                         /> */}
-                        SIRISHA
+                        PRUDHVI
                       </a>
                     </Link>
                   </div>
@@ -102,9 +102,8 @@ const Header1 = ({ onePageMenu }) => {
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                    }`}
                 >
                   {onePageMenu ? <OnePageMenu /> : <MultiMenu />}
                 </div>
@@ -113,8 +112,8 @@ const Header1 = ({ onePageMenu }) => {
             </div>
             {/* Menu Button */}
             {/* <div className="menu-btns d-none d-lg-block"> */}
-              {/* menu sidbar */}
-              {/* <div className="menu-sidebar">
+            {/* menu sidbar */}
+            {/* <div className="menu-sidebar">
                 <button onClick={() => toggleSidebar()}>
                   <img
                     src="assets/images/shape/sidebar-tottler.svg"
@@ -152,20 +151,20 @@ const Header2 = ({ onePageMenu }) => {
               <div className="logo">
                 <Link legacyBehavior href="/">
                   <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
+                    style={{
+                      fontSize: "32px",
+                      fontWeight: "600",
+                      color: "#d5ff00", // neon yellow
+                      textDecoration: "none",
+                      fontFamily: "'Poppins', sans-serif", // or match site font
+                    }}
+                  >
                     {/* <img
                       src="assets/images/logos/logo.png"
                       alt="Logo"
                       title="Logo"
                     /> */}
-                    SIRISHA
+                    PRUDHVI
                   </a>
                 </Link>
               </div>
@@ -177,20 +176,20 @@ const Header2 = ({ onePageMenu }) => {
                   <div className="mobile-logo my-15">
                     <Link legacyBehavior href="/">
                       <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
+                        style={{
+                          fontSize: "32px",
+                          fontWeight: "600",
+                          color: "#d5ff00", // neon yellow
+                          textDecoration: "none",
+                          fontFamily: "'Poppins', sans-serif", // or match site font
+                        }}
+                      >
                         {/* <img
                           src="assets/images/logos/logo.png"
                           alt="Logo"
                           title="Logo"
                         /> */}
-                        SIRISHA
+                        PRUDHVI
                       </a>
                     </Link>
                   </div>
@@ -208,9 +207,8 @@ const Header2 = ({ onePageMenu }) => {
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                    }`}
                 >
                   {onePageMenu ? (
                     <ul className="navigation onepage clearfix">

@@ -2,37 +2,37 @@ import Link from "next/link";
 
 const Services = ({ extraClass }) => {
   const services = [
-  {
-    id: 1,
-    title: "Cloud Infrastructure Engineering",
-    text: "Design and deploy scalable, secure cloud infrastructure across AWS, Azure, and GCP using Terraform and CloudFormation. Expertise in multi-region, HIPAA-compliant architectures.",
-  },
-  {
-    id: 2,
-    title: "CI/CD Pipeline Automation",
-    text: "Build and optimize robust CI/CD pipelines using GitHub Actions, Jenkins, and GitLab CI/CD. Enable fast, reliable, and traceable deployments with rollback and artifact versioning.",
-  },
-  {
-    id: 3,
-    title: "Kubernetes & Container Orchestration",
-    text: "Deploy and manage containerized applications on Kubernetes (EKS, GKE, AKS) with Helm and Kustomize. Implement HPA, admission controllers, and canary rollouts.",
-  },
-  {
-    id: 4,
-    title: "Infrastructure as Code (IaC)",
-    text: "Automate cloud resource provisioning using Terraform, Pulumi, and Ansible. Modularize infrastructure for reusable, consistent deployments across multiple environments.",
-  },
-  {
-    id: 5,
-    title: "DevSecOps & Security Automation",
-    text: "Integrate tools like Vault, Trivy, and IAM policies to automate secrets management and enforce security scans in pipelines, reducing vulnerabilities and ensuring compliance.",
-  },
-  {
-    id: 6,
-    title: "Monitoring & Observability",
-    text: "Enable platform visibility with Prometheus, Grafana, ELK stack, and CloudWatch. Reduce MTTR with proactive alerting and in-depth metrics for Kubernetes and microservices.",
-  },
-];
+    {
+      id: 1,
+      title: "Data Pipeline Development",
+      text: "Build and automate robust ETL/ELT pipelines using Azure Data Factory and Python to ingest structured data from varied sources.",
+    },
+    {
+      id: 2,
+      title: "Cloud Data Platforms",
+      text: "Design scalable data solutions on Azure Databricks and Synapse Analytics to support enterprise analytics requirements.",
+    },
+    {
+      id: 3,
+      title: "SQL Transformations & Modeling",
+      text: "Model optimized fact and dimension tables and implement complex SQL transformations for reliable analytics-ready datasets.",
+    },
+    {
+      id: 4,
+      title: "Data Quality & Validation",
+      text: "Implement programmatic schema checks, null thresholds, and format validations to decrease downstream data defects.",
+    },
+    {
+      id: 5,
+      title: "Incremental Data Processing",
+      text: "Establish scalable incremental load logic with Delta Lake to accelerate daily pipeline runs while ensuring absolute historical accuracy.",
+    },
+    {
+      id: 6,
+      title: "Database Administration & Ops",
+      text: "Optimize execution plans, write automated shell scripts for data jobs, and monitor databases to ensure high availability.",
+    },
+  ];
 
 
   return (
@@ -44,10 +44,10 @@ const Services = ({ extraClass }) => {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">My Experience</span>
+              <span className="sub-title mb-15">My Expertise</span>
               <h2>
-  My <span>DevOps Expertise</span> & Offerings
-</h2>
+                My <span>Data Engineering</span> Offerings
+              </h2>
 
 
             </div>

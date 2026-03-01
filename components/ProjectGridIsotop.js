@@ -44,158 +44,80 @@ const ProjectGridIsotop = () => {
           Show All
         </li>
         <li
-          className={`c-pointer ${activeBtn("design")}`}
-          onClick={handleFilterKeyChange("design")}
+          className={`c-pointer ${activeBtn("data-ops")}`}
+          onClick={handleFilterKeyChange("data-ops")}
         >
-          Design
+          Data Operations
         </li>
         <li
-          className={`c-pointer ${activeBtn("branding")}`}
-          onClick={handleFilterKeyChange("branding")}
+          className={`c-pointer ${activeBtn("quality")}`}
+          onClick={handleFilterKeyChange("quality")}
         >
-          Branding
+          Data Quality
         </li>
         <li
-          className={`c-pointer ${activeBtn("marketing")}`}
-          onClick={handleFilterKeyChange("marketing")}
+          className={`c-pointer ${activeBtn("etl")}`}
+          onClick={handleFilterKeyChange("etl")}
         >
-          Marketing
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("development")}`}
-          onClick={handleFilterKeyChange("development")}
-        >
-          Development
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("apps")}`}
-          onClick={handleFilterKeyChange("apps")}
-        >
-          Mobile Apps
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("graphics")}`}
-          onClick={handleFilterKeyChange("graphics")}
-        >
-          Graphics
+          Data Pipelines
         </li>
       </ul>
       <div className="row project-masonry-active">
-        <div className="col-lg-6 item branding development">
+        <div className="col-lg-6 item data-ops">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img src="assets/images/projects/project_ds1.png" alt="Project" />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Data Operations</span>
               <h3>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                <Link legacyBehavior href="#">
+                  SQL Server Consolidation & Reporting
                 </Link>
               </h3>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing graphics">
+        <div className="col-lg-6 item quality">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img src="assets/images/projects/project_ds2.png" alt="Project" />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Data Quality</span>
               <h3>
-                <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                <Link legacyBehavior href="#">
+                  Automated Data Validation Systems
                 </Link>
               </h3>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item development graphics">
+        <div className="col-lg-6 item etl">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img src="assets/images/projects/project_ds3.png" alt="Project" />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Data Pipelines</span>
               <h3>
-                <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
-                </Link>
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 item design development apps">
-          <div className="project-item style-two wow fadeInUp delay-0-4s">
-            <div className="project-image">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-            <div className="project-content">
-              <span className="sub-title">Product Design</span>
-              <h3>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 item branding marketing graphics">
-          <div className="project-item style-two wow fadeInUp delay-0-2s">
-            <div className="project-image">
-              <img src="assets/images/projects/project5.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-            <div className="project-content">
-              <span className="sub-title">Design &amp; Branding</span>
-              <h3>
-                <Link legacyBehavior href="project-details">
-                  Creative Graphics Design
-                </Link>
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 item design marketing apps">
-          <div className="project-item style-two wow fadeInUp delay-0-4s">
-            <div className="project-image">
-              <img src="assets/images/projects/project6.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-            <div className="project-content">
-              <span className="sub-title">Product Design</span>
-              <h3>
-                <Link legacyBehavior href="project-details">
-                  Design &amp; Branding Mokeup
+                <Link legacyBehavior href="#">
+                  Structured Reliability Pipelines
                 </Link>
               </h3>
             </div>

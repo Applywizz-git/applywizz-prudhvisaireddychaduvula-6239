@@ -37,20 +37,20 @@ const Footer1 = () => {
                   </Link>
                 </div> */}
                 <div className="footer-logo">
-  <Link legacyBehavior href="/">
-    <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
-      SIRISHA
-    </a>
-  </Link>
-</div>
+                  <Link legacyBehavior href="/">
+                    <a
+                      style={{
+                        fontSize: "32px",
+                        fontWeight: "600",
+                        color: "#d5ff00", // neon yellow
+                        textDecoration: "none",
+                        fontFamily: "'Poppins', sans-serif", // or match site font
+                      }}
+                    >
+                      PRUDHVI
+                    </a>
+                  </Link>
+                </div>
 
               </div>
             </div>
@@ -59,22 +59,22 @@ const Footer1 = () => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
-                    <Link legacyBehavior href="https://www.linkedin.com/in/sirisham28/">
+                    <Link legacyBehavior href="https://www.linkedin.com/in/prudhvisaireddyc/">
                       <a target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="https://github.com/SiriM28">
-      <a target="_blank" rel="noopener noreferrer">GitHub</a>
+                      <a target="_blank" rel="noopener noreferrer">GitHub</a>
                     </Link>
                   </li>
                   <li>
-      <a href="/assets/pdfs/sirisha_m_resume.pdf" download="Sirisha_Resume.pdf" target="_blank" rel="noopener noreferrer">
-  Download CV
-</a>
+                    <a href="/assets/pdfs/prudhvisaireddy_resume.pdf" download="Prudhvisaireddy_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                      Download CV
+                    </a>
 
-    </li>
-                
+                  </li>
+
                 </ul>
               </div>
               <div className="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
@@ -98,17 +98,14 @@ const Footer1 = () => {
               <div className="footer-widget widget_contact_info wow fadeInUp delay-0-6s">
                 <h6 className="footer-title">Address</h6>
                 <ul>
-                  <li>
-                    <i className="far fa-map-marker-alt" /> 9817 Milkweed lane, Fort Worth, Texas- 76177
 
-                  </li>
                   <li>
                     <i className="far fa-envelope" />{" "}
-                    <a href="mailto:support@gmail.com">Sirisham282000@gmail.com</a>
+                    <a href="mailto:prudhvisaireddy1243@gmail.com">prudhvisaireddy1243@gmail.com</a>
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">817-501-3463 </a>
+                    <a href="callto:+19408439399">+1 (940) 843-9399</a>
                   </li>
                 </ul>
               </div>
@@ -146,8 +143,8 @@ const Footer1 = () => {
                 </li>
               </ul>
             </div>*/}
-          </div> 
-       
+          </div>
+
           <a href="#" className="scroll-top scroll-to-target d-inline-block">
             <span className="fas fa-angle-double-up" />
           </a>
@@ -183,16 +180,16 @@ export const Footer2 = () => {
               <div className="footer-logo">
                 <Link legacyBehavior href="/">
                   <a
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#d5ff00", // neon yellow
-        textDecoration: "none",
-        fontFamily: "'Poppins', sans-serif", // or match site font
-      }}
-    >
+                    style={{
+                      fontSize: "32px",
+                      fontWeight: "600",
+                      color: "#d5ff00", // neon yellow
+                      textDecoration: "none",
+                      fontFamily: "'Poppins', sans-serif", // or match site font
+                    }}
+                  >
                     {/* <img src="assets/images/logos/logo.png" alt="Logo" /> */}
-                    SIRISHA
+                    PRUDHVI
                   </a>
                 </Link>
               </div>
@@ -278,7 +275,7 @@ export const Footer2 = () => {
             <p>
               Copyright @{date},{" "}
               <Link legacyBehavior href="/">
-                SIRISHA
+                PRUDHVI
               </Link>{" "}
               All Rights Reserved
             </p>

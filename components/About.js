@@ -9,51 +9,51 @@ const About = () => {
             <div className="col-lg-7">
               <div className="about-content-part rel z-2 rmb-55">
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-  <span className="sub-title mb-15">About Me</span>
-  <h2>
-    Reliable <span>DevOps Solutions</span> For Cloud-First
-    Organizations
-  </h2>
-  <p>
-    I’m a certified Cloud DevOps Engineer with 4+ years of experience delivering scalable, secure, and automated solutions across AWS, Azure, and GCP. I specialize in building end-to-end CI/CD pipelines, infrastructure as code, container orchestration, and security automation.
-    <br />
-    From production-grade Kubernetes environments to HIPAA-compliant cloud deployments, I bring a systems-thinking mindset and a continuous improvement approach to modern DevOps practices.
-  </p>
-</div>
-<ul className="list-style-one two-column wow fadeInUp delay-0-2s">
-  <li>CI/CD Pipelines (GitHub Actions, Jenkins, GitLab CI/CD)</li>
-  <li>Kubernetes & Docker Orchestration (EKS, GKE, AKS)</li>
-  <li>Infrastructure as Code (Terraform, CloudFormation)</li>
-  <li>Monitoring & Security (Prometheus, Vault, Trivy)</li>
-</ul>
+                  <span className="sub-title mb-15">About Me</span>
+                  <h2>
+                    Reliable <span>Data Solutions</span> For Analytics-Driven
+                    Organizations
+                  </h2>
+                  <p>
+                    I’m a Data Engineer with 3+ years of experience building batch data pipelines, SQL transformation layers, and analytics-ready datasets in cloud environments. I specialize in Azure Data Factory, Databricks, and Synapse Analytics to ingest and transform complex data sources.
+                    <br />
+                    From implementing incremental data loads to delivering high-quality fact and dimension tables, I focus on building reliable data foundations that empower business intelligence and advanced analytics.
+                  </p>
+                </div>
+                <ul className="list-style-one two-column wow fadeInUp delay-0-2s">
+                  <li>Data Pipeline Development & ETL Processing</li>
+                  <li>Azure Data Factory & Databricks (PySpark)</li>
+                  <li>Azure Synapse Analytics & Delta Lake</li>
+                  <li>SQL Transformations & Data Modeling</li>
+                </ul>
 
                 <div className="about-info-box mt-25 wow fadeInUp delay-0-2s">
                   <div className="info-box-item">
                     <i className="far fa-envelope" />
                     <div className="content">
-                      <span>Email Us</span>
+                      <span>Email</span>
                       <br />
-                      <a href="mailto:Sirisham282000@gmail.com">Sirisham282000@gmail.com</a>
+                      <a href="mailto:prudhvisaireddy1243@gmail.com">prudhvisaireddy1243@gmail.com</a>
                     </div>
                   </div>
                   <div className="info-box-item">
                     <i className="far fa-phone" />
                     <div className="content">
-                      <span>Make A Call</span>
+                      <span>Phone</span>
                       <br />
-                      <a href="callto: 817-501-3463"> 817-501-3463</a>
+                      <a href="callto:+19408439399">+1 (940) 843-9399</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-5">
-              
+
               <div className="about-image-part wow fadeInUp delay-0-3s">
-                <img src="assets/images/about/sirisha maroon suit bgremove.png" alt="About Me" />
+                <img src="assets/images/about/prudhvi_final_suit.png" alt="About Me" style={{ borderRadius: '20px' }} />
                 <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />
-                  <h6>DevOps Engineer</h6> 
+                  <h6>Data Engineer</h6>
 
                   <i className="fas fa-arrow-right" />
                 </div>

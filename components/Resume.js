@@ -75,86 +75,94 @@ const Resume = () => {
             </div> */}
 
             <div className="resume-items-wrap">
-  <div className="row justify-content-between">
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-3s rotate-45">
-        <div className="icon ">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">Feb 2025 - Present</span>
-          <h4>Cloud DevOps Engineer</h4>
-          <span className="company">ASTRANA Health</span>
-        </div>
-      </div>
-    </div>
+              <div className="row justify-content-between">
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-3s rotate-45">
+                    <div className="icon ">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">July 2025 - Present</span>
+                      <h4>Data Engineer</h4>
+                      <span className="company">DA2Technologies LLC</span>
+                    </div>
+                  </div>
+                </div>
 
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-4s">
-        <div className="icon">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">Jul 2024 - Feb 2025</span>
-          <h4>Cloud DevOps Engineer Intern</h4>
-          <span className="company">The COMMONS XR</span>
-        </div>
-      </div>
-    </div>
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-4s">
+                    <div className="icon">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">Feb 2021 - July 2023</span>
+                      <h4>Data Integration Engineer</h4>
+                      <span className="company">Tecnics Integration Technologies Pvt Ltd</span>
+                    </div>
+                  </div>
+                </div>
 
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-2s">
-        <div className="icon">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">May 2021 - Jul 2022</span>
-          <h4>Cloud DevOps Engineer</h4>
-          <span className="company">DXC Technology, India</span>
-        </div>
-      </div>
-    </div>
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-3s">
+                    <div className="icon">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">Aug 2023 - May 2025</span>
+                      <h4>Masters in Computer and Information Sciences</h4>
+                      <span className="company">University of North Texas | TX, USA</span>
+                    </div>
+                  </div>
+                </div>
 
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-4s">
-        <div className="icon">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">Jun 2020 - May 2021</span>
-          <h4>Linux System Administrator Intern</h4>
-          <span className="company">DXC Technology, India</span>
-        </div>
-      </div>
-    </div>
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-4s">
+                    <div className="icon">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">Jun 2016 - Jul 2020</span>
+                      <h4>Bachelor of Technology in CSE</h4>
+                      <span className="company">Gitam University | India</span>
+                    </div>
+                  </div>
+                </div>
 
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-3s">
-        <div className="icon">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">2022 - 2024</span>
-          <h4>Master of Science in Information Systems</h4>
-          <span className="company">University of North Texas</span>
-        </div>
-      </div>
-    </div>
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-3s">
+                    <div className="icon">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">Certifications</span>
+                      <h4>Cloud & Architecture</h4>
+                      <span className="company">
+                        • AWS Certified Cloud Practitioner<br />
+                        • Microsoft Certified Azure Fundamentals<br />
+                        • Databricks Lakehouse Fundamentals
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
-    <div className="col-xl-5 col-md-6">
-      <div className="resume-item wow fadeInUp delay-0-4s">
-        <div className="icon">
-          <i className="far fa-arrow-right" />
-        </div>
-        <div className="content">
-          <span className="years">2017 - 2021</span>
-          <h4>B.Tech in Electronics & Communication</h4>
-          <span className="company">JNTU Kakinada</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                <div className="col-xl-5 col-md-6">
+                  <div className="resume-item wow fadeInUp delay-0-4s">
+                    <div className="icon">
+                      <i className="far fa-arrow-right" />
+                    </div>
+                    <div className="content">
+                      <span className="years">Certifications</span>
+                      <h4>Data Engineering Specializations</h4>
+                      <span className="company">
+                        • Google Data Engineering Professional<br />
+                        • IBM Data Engineering Professional<br />
+                        • SQL for Data Science (Coursera)
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
