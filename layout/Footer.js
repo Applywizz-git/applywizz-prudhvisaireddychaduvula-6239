@@ -47,7 +47,7 @@ const Footer1 = () => {
                         fontFamily: "'Poppins', sans-serif", // or match site font
                       }}
                     >
-                      PRUDHVI
+                      PS
                     </a>
                   </Link>
                 </div>
@@ -63,11 +63,7 @@ const Footer1 = () => {
                       <a target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </Link>
                   </li>
-                  <li>
-                    <Link legacyBehavior href="https://github.com/SiriM28">
-                      <a target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </Link>
-                  </li>
+
                   <li>
                     <a href="/assets/pdfs/prudhvisaireddy_resume.pdf" download="Prudhvisaireddy_Resume.pdf" target="_blank" rel="noopener noreferrer">
                       Download CV
@@ -189,7 +185,7 @@ export const Footer2 = () => {
                     }}
                   >
                     {/* <img src="assets/images/logos/logo.png" alt="Logo" /> */}
-                    PRUDHVI
+                    PS
                   </a>
                 </Link>
               </div>
@@ -275,7 +271,7 @@ export const Footer2 = () => {
             <p>
               Copyright @{date},{" "}
               <Link legacyBehavior href="/">
-                PRUDHVI
+                PS
               </Link>{" "}
               All Rights Reserved
             </p>

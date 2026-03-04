@@ -29,12 +29,9 @@ export default function Home() {
       {/* Skill Area start */}
       <Skill />
       {/* Skill Area end */}
-      {/* Projects Area start */}
+      {/* Project Area Start */}
       <Projects />
-      {/* Projects Area end */}
-      {/* Testimonial Area start */}
-      <Testimonial />
-      {/* Testimonial Area end */}
+      {/* Project Area End */}
       {/* Pricing Area start */}
       <Pricing />
       {/* Pricing Area end */}

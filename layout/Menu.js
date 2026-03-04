@@ -75,12 +75,12 @@ const MultiMenu = () => {
 
         <li className="dropdown">
           <button
-            
+
             className={`nav-button-link ${activeTab === "blog" ? "active" : ""}`}
           >
-             <a href="/assets/pdfs/sirisha_m_resume.pdf" download="Sirisha_Resume.pdf" target="_blank" rel="noopener noreferrer">
-  Download CV
-</a>
+            <a href="/assets/pdfs/prudhvisaireddy_resume.pdf" download="Prudhvisaireddy_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Download CV
+            </a>
           </button>
         </li>
       </ul>

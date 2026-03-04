@@ -29,33 +29,24 @@ const page = () => {
                 <div className="widget_contact_info mb-35">
                   <ul>
                     <li>
-                      <i className="far fa-map-marker-alt" /> 55 Main Street,
-                      2nd block,
-                      <br /> New York City
+                      <i className="far fa-map-marker-alt" /> Denton,
+                      Texas,
+                      <br /> USA
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:prudhvisaireddy1243@gmail.com">prudhvisaireddy1243@gmail.com</a>
                     </li>
                     <li>
                       <i className="far fa-phone" />{" "}
-                      <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                      <a href="callto:+19408439399">+1 (940) 843-9399</a>
                     </li>
                   </ul>
                 </div>
                 <h5>Follow Me</h5>
                 <div className="social-style-one mt-10">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/prudhvisaireddyc/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
                   </a>
                 </div>
               </div>
@@ -79,7 +70,7 @@ const page = () => {
                           name="name"
                           className="form-control"
                           defaultValue=""
-                          placeholder="Richard D. Hammond"
+                          placeholder=""
                           required=""
                           data-error="Please enter your Name"
                         />
@@ -117,7 +108,7 @@ const page = () => {
                           name="phone_number"
                           className="form-control"
                           defaultValue=""
-                          placeholder="+880 (123) 456 88"
+                          placeholder=""
                           required=""
                           data-error="Please enter your Phone Number"
                         />

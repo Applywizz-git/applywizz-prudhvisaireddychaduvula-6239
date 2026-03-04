@@ -45,7 +45,7 @@ const Contact = () => {
                         name="name"
                         className="form-control"
                         defaultValue=""
-                        placeholder="Richard D. Hammond"
+                        placeholder=""
                         required=""
                         data-error="Please enter your Name"
                       />
@@ -64,7 +64,7 @@ const Contact = () => {
                         name="email"
                         className="form-control"
                         defaultValue=""
-                        placeholder="support@gmail.com"
+                        placeholder=""
                         required=""
                         data-error="Please enter your Email"
                       />
@@ -83,7 +83,7 @@ const Contact = () => {
                         name="phone_number"
                         className="form-control"
                         defaultValue=""
-                        placeholder="+880 (123) 456 88"
+                        placeholder=""
                         required=""
                         data-error="Please enter your Phone Number"
                       />
@@ -102,7 +102,7 @@ const Contact = () => {
                         name="subject"
                         className="form-control"
                         defaultValue=""
-                        placeholder="Subject"
+                        placeholder=""
                         required=""
                         data-error="Please enter your Subject"
                       />
@@ -120,7 +120,7 @@ const Contact = () => {
                         id="message"
                         className="form-control"
                         rows={4}
-                        placeholder="write message"
+                        placeholder=""
                         required=""
                         data-error="Please enter your Message"
                         defaultValue={""}

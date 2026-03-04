@@ -128,7 +128,7 @@ const Resume = () => {
                   </div>
                 </div>
 
-                <div className="col-xl-5 col-md-6">
+                <div className="col-xl-5 col-md-12">
                   <div className="resume-item wow fadeInUp delay-0-3s">
                     <div className="icon">
                       <i className="far fa-arrow-right" />
@@ -137,15 +137,17 @@ const Resume = () => {
                       <span className="years">Certifications</span>
                       <h4>Cloud & Architecture</h4>
                       <span className="company">
-                        • AWS Certified Cloud Practitioner<br />
-                        • Microsoft Certified Azure Fundamentals<br />
-                        • Databricks Lakehouse Fundamentals
+                        <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: 'white' }}>
+                          <li style={{ whiteSpace: 'nowrap' }}>AWS Certified Cloud Practitioner</li>
+                          <li style={{ whiteSpace: 'nowrap' }}>Microsoft Certified Azure Fundamentals</li>
+                          <li style={{ whiteSpace: 'nowrap' }}>Databricks Lakehouse Fundamentals</li>
+                        </ul>
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-xl-5 col-md-6">
+                <div className="col-xl-5 col-md-12">
                   <div className="resume-item wow fadeInUp delay-0-4s">
                     <div className="icon">
                       <i className="far fa-arrow-right" />
@@ -154,9 +156,11 @@ const Resume = () => {
                       <span className="years">Certifications</span>
                       <h4>Data Engineering Specializations</h4>
                       <span className="company">
-                        • Google Data Engineering Professional<br />
-                        • IBM Data Engineering Professional<br />
-                        • SQL for Data Science (Coursera)
+                        <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: 'white' }}>
+                          <li style={{ whiteSpace: 'nowrap' }}>Google Data Engineering Professional</li>
+                          <li style={{ whiteSpace: 'nowrap' }}>IBM Data Engineering Professional</li>
+                          <li style={{ whiteSpace: 'nowrap' }}>SQL for Data Science (Coursera)</li>
+                        </ul>
                       </span>
                     </div>
                   </div>

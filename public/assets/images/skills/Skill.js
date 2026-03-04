@@ -162,7 +162,7 @@ const Skill = () => {
                           />
                         </div>
                         <h5 style={{ marginTop: 'auto' }}>{item.name}</h5>
-                        <span className="percent">{item.value}%</span>
+
                       </div>
                     </div>
                   ))}
@@ -226,7 +226,7 @@ export const Skill2 = () => {
                         <div className="skill-item-two wow fadeInUp delay-0-3s">
                           <div className="icon-percent">
                             <img src={item.image} alt="Skill" />
-                            <span className="percent">{item.value}%</span>
+
                           </div>
                           <h5 className="title">{item.name}</h5>
                         </div>

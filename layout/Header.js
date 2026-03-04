@@ -58,7 +58,7 @@ const Header1 = ({ onePageMenu }) => {
                       fontFamily: "'Poppins', sans-serif", // or match site font
                     }}
                   >
-                    PRUDHVI
+                    PS
                   </a>
                 </Link>
               </div>
@@ -84,7 +84,7 @@ const Header1 = ({ onePageMenu }) => {
                           alt="Logo"
                           title="Logo"
                         /> */}
-                        PRUDHVI
+                        PS
                       </a>
                     </Link>
                   </div>
@@ -164,7 +164,7 @@ const Header2 = ({ onePageMenu }) => {
                       alt="Logo"
                       title="Logo"
                     /> */}
-                    PRUDHVI
+                    PS
                   </a>
                 </Link>
               </div>
@@ -189,7 +189,7 @@ const Header2 = ({ onePageMenu }) => {
                           alt="Logo"
                           title="Logo"
                         /> */}
-                        PRUDHVI
+                        PS
                       </a>
                     </Link>
                   </div>

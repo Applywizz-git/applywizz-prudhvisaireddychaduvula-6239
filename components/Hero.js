@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, I’m </span>
               <h1>
-                <b>PRUDHVI SAI REDDY</b><br></br>
+                <b>PRUDHVISAIREDDY CHADUVULA</b><br></br>
                 <span>Data Engineer</span>
               </h1>
               <p>
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-3 col-sm-5 order-lg-3">
-            <div className="hero-counter-wrap ms-lg-auto rmb-55 wow fadeInUp delay-0-4s">
+            <div className="hero-counter-wrap ms-lg-auto rmb-55 wow fadeInUp delay-0-4s" style={{ border: '1px solid rgba(213, 255, 0, 0.2)', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
               {counterData.map((count) => (
                 <div className="counter-item counter-text-wrap" key={count.id}>
                   <Counter end={count.value} extraClass={count.valueType} />
