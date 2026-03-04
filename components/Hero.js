@@ -4,7 +4,7 @@ import Counter from "./Counter";
 const counterData = [
   { id: 1, text: "Years Of Experience", value: "3", valueType: "plus" },
   { id: 2, text: "Projects Completed", value: "3", valueType: "plus" },
-  { id: 3, text: "Success Rate", value: "95", valueType: "percent" },
+  // { id: 3, text: "Success Rate", value: "95", valueType: "percent" },
 ];
 
 const Hero = () => {
